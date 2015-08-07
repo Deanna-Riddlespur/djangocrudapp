@@ -38,9 +38,9 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'books_cbv',
-    'books_fbv',
-    'books_fbv_user',
+    'teams_cbv',
+    'teams_fbv',
+    'teams_fbv_user',
 )
 
 MIDDLEWARE_CLASSES = (

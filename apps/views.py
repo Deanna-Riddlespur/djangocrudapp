@@ -4,8 +4,8 @@ from django.http import HttpResponse
 def home(request):
     html = """
     <h1>Django CRUD Example</h1>
-    <a href="/books_cbv/">Class Based Views</a><br>
-    <a href="/books_fbv/">Function Based Views</a><br>    
-    <a href="/books_fbv_user/">Function Based Views with User Access</a><br>    
+    <a href="/teams_cbv/">Class Based Views</a><br>
+    <a href="/teams_fbv/">Function Based Views</a><br>    
+    <a href="/teams_fbv_user/">Function Based Views with User Access</a><br>    
     """
     return HttpResponse(html)

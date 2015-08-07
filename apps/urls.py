@@ -7,8 +7,8 @@ urlpatterns = [
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^books_cbv/', include('books_cbv.urls', namespace='books_cbv')),
-    url(r'^books_fbv/', include('books_fbv.urls', namespace='books_fbv')),
-    url(r'^books_fbv_user/', include('books_fbv_user.urls', namespace='books_fbv_user')),
+    url(r'^teams_cbv/', include('teams_cbv.urls', namespace='teams_cbv')),
+    url(r'^teams_fbv/', include('teams_fbv.urls', namespace='teams_fbv')),
+    url(r'^teams_fbv_user/', include('teams_fbv_user.urls', namespace='teams_fbv_user')),
     url(r'^$', 'apps.views.home'),
 ]

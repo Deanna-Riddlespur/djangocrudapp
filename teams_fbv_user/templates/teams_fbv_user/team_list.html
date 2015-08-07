@@ -1,0 +1,11 @@
+<h1>teams FBV User</h1>
+<ul>
+    {% for team in object_list %}
+    <li>{{ team.name }}  ({{ team.pages }} Nerds)
+    <a href="{% url 'teams_fbv_user:team_edit' team.id %}">edit</a>
+    <a href="{% url 'teams_fbv_user:team_delete' team.id %}">delete</a>
+    </li>
+    {% endfor %}
+</ul>
+
+<a href="{% url 'teams_fbv_user:team_new' %}">New</a>
